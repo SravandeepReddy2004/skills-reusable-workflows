@@ -3,8 +3,7 @@ name: Step 3, Add a Matrix Strategy
 # This step triggers after the learner pushes a commit to `reusable-workflow`, adding a matrix strategy to the workflow.
 # This workflow updates from step 3 to step 4.
 
-# This will run every time we push a commit to `reusable-workflow` (to a file other than reusable-workflow.yml).
-# Reference: https://docs.github.com/en/actions/learn-github-actions/events-that-trigger-workflows
+
 on:
   workflow_dispatch:
   push:
